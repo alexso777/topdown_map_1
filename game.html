@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<style type="text/css">
+		body { margin: 0; padding: 0; background: #222;}
+		canvas { display: block; margin: 0.5em auto; background: #fff; }
+	</style>
+	<title>TopDown</title>
+</head>
+<body>
+	<div style="height:450px; width:640px; position: relative;">
+		<canvas id="image" width="640px" height="450px" style="height:100%; width:100%; image-rendering: pixelated; position:absolute; top: 0px; left: 0px; z-index: 2;">
+			Your browser does not support canvas
+		</canvas>
+		<canvas id="text" width="640px" height="450px" style="height:100%; width:100%; image-rendering: pixelated; position:absolute; top: 0px; left: 0px; z-index: 3; background-color: transparent;">
+		</canvas>
+		<img id="follower" style="position:absolute; top: 0px; left: 0px; z-index: 4; background-color: transparent;">
+	</div>
+	<script src="content/engine.js"></script>
+	<script src="content/vector.js"></script>
+	<script src="content/utilities.js"></script>
+	<script src="content/draw.js"></script>
+	<script src="content/chat.js"></script>
+	<script src="content/terrains.js"></script>
+	<script src="content/covers.js"></script>
+	<script src="content/map.js"></script>
+	<script src="content/follower.js"></script>
+	<script src="content/trainer.js"></script>
+	<script src="content/tree.js"></script>
+	<script src="content/house_1.js"></script>
+	<script src="content/house_2.js"></script>
+	<script src="content/house_3.js"></script>
+	<script src="content/house_4.js"></script>
+	<script src="content/food_1.js"></script>
+	<script src="content/food_2.js"></script>
+	<script src="content/stone_1.js"></script>
+	<script src="content/stone_2.js"></script>
+	<script src="content/person_1.js"></script>
+	<script src="content/person_2.js"></script>
+	<script src="content/init.js"></script>
+</body>
+</html>
