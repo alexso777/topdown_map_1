@@ -78,7 +78,7 @@ left_images.push(left_3);
 
 app.TRAINER_IMAGES.push(left_images);
 
-app.track = [new app.Vector(1600, 2020)];
+app.track = [new app.Vector(1600, 1820)];
 
 app.trainer = {
 	color: "black",
@@ -99,7 +99,7 @@ app.trainer = {
 	
 	// Sets up the player
 	init: function(){
-		this.position = new app.Vector(1600,2000);
+		this.position = new app.Vector(1600,1800);
 		this.velocity = new app.Vector(0,0);
 		this.acceleration = new app.Vector(0,0);
 	},

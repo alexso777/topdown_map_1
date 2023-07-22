@@ -358,6 +358,465 @@ function initObjects(){
 		new app.Tree(87, 59);
 	}
 
+	//Pass 1
+	{
+		new app.Tree(94, 65);
+		new app.Tree(94, 64);
+		new app.Tree(94, 63);
+		new app.Tree(94, 62);
+		new app.Tree(94, 61);
+		new app.Tree(94, 60);
+		new app.Tree(94, 59);
+		new app.Tree(94, 58);
+		new app.Tree(94, 57);
+		new app.Tree(94, 56);
+		new app.Tree(94, 55);
+		new app.Tree(94, 54);
+		new app.Tree(94, 53);
+		new app.Tree(94, 52);
+		new app.Tree(94, 51);
+
+		new app.Tree(96, 65);
+		new app.Tree(96, 64);
+		new app.Tree(96, 63);
+		new app.Tree(96, 62);
+		new app.Tree(96, 61);
+		new app.Tree(96, 60);
+		new app.Tree(96, 59);
+		new app.Tree(96, 58);
+		new app.Tree(96, 57);
+		new app.Tree(96, 56);
+		new app.Tree(96, 55);
+		new app.Tree(96, 54);
+		new app.Tree(96, 53);
+		new app.Tree(96, 52);
+		new app.Tree(96, 51);
+
+		new app.Tree(98, 65);
+		new app.Tree(98, 64);
+		new app.Tree(98, 63);
+		new app.Tree(98, 62);
+		new app.Tree(98, 61);
+		new app.Tree(98, 60);
+		new app.Tree(98, 59);
+		new app.Tree(98, 58);
+		new app.Tree(98, 57);
+		new app.Tree(98, 56);
+		new app.Tree(98, 55);
+		new app.Tree(98, 54);
+		new app.Tree(98, 53);
+		new app.Tree(98, 52);
+		new app.Tree(98, 51);
+
+		new app.Tree(100, 65);
+		new app.Tree(100, 64);
+		new app.Tree(100, 63);
+		new app.Tree(100, 62);
+		new app.Tree(100, 61);
+		new app.Tree(100, 60);
+		new app.Tree(100, 59);
+		new app.Tree(100, 58);
+		new app.Tree(100, 57);
+		new app.Tree(100, 56);
+		new app.Tree(100, 55);
+		new app.Tree(100, 54);
+		new app.Tree(100, 53);
+		new app.Tree(100, 52);
+		new app.Tree(100, 51);
+
+		new app.Tree(102, 65);
+		new app.Tree(102, 64);
+		new app.Tree(102, 63);
+		new app.Tree(102, 62);
+		new app.Tree(102, 61);
+		new app.Tree(102, 60);
+		new app.Tree(102, 59);
+		new app.Tree(102, 58);
+		new app.Tree(102, 57);
+		new app.Tree(102, 56);
+		new app.Tree(102, 55);
+		new app.Tree(102, 54);
+		new app.Tree(102, 53);
+		new app.Tree(102, 52);
+		new app.Tree(102, 51);
+
+		new app.Tree(104, 65);
+		new app.Tree(104, 64);
+		new app.Tree(104, 63);
+		new app.Tree(104, 62);
+		new app.Tree(104, 61);
+		new app.Tree(104, 60);
+		new app.Tree(104, 59);
+		new app.Tree(104, 58);
+		new app.Tree(104, 57);
+		new app.Tree(104, 56);
+		new app.Tree(104, 55);
+		new app.Tree(104, 54);
+		new app.Tree(104, 53);
+		new app.Tree(104, 52);
+		new app.Tree(104, 51);
+
+		new app.Tree(106, 65);
+		new app.Tree(106, 64);
+		new app.Tree(106, 63);
+		new app.Tree(106, 62);
+		new app.Tree(106, 61);
+		new app.Tree(106, 60);
+		new app.Tree(106, 59);
+		new app.Tree(106, 58);
+		new app.Tree(106, 57);
+		new app.Tree(106, 56);
+		new app.Tree(106, 55);
+		new app.Tree(106, 54);
+		new app.Tree(106, 53);
+		new app.Tree(106, 52);
+		new app.Tree(106, 51);
+
+		new app.Tree(150, 65);
+		new app.Tree(150, 64);
+		new app.Tree(150, 63);
+		new app.Tree(150, 62);
+		new app.Tree(150, 61);
+
+		new app.Tree(152, 65);
+		new app.Tree(152, 64);
+		new app.Tree(152, 63);
+		new app.Tree(152, 62);
+		new app.Tree(152, 61);
+
+		new app.Tree(154, 65);
+		new app.Tree(154, 64);
+		new app.Tree(154, 63);
+		new app.Tree(154, 62);
+		new app.Tree(154, 61);
+
+		new app.Tree(156, 65);
+		new app.Tree(156, 64);
+		new app.Tree(156, 63);
+		new app.Tree(156, 62);
+		new app.Tree(156, 61);
+
+		new app.Tree(158, 65);
+		new app.Tree(158, 64);
+		new app.Tree(158, 63);
+		new app.Tree(158, 62);
+		new app.Tree(158, 61);
+
+		new app.Tree(160, 65);
+		new app.Tree(160, 64);
+		new app.Tree(160, 63);
+		new app.Tree(160, 62);
+		new app.Tree(160, 61);
+		new app.Tree(160, 60);
+		new app.Tree(160, 59);
+		new app.Tree(160, 58);
+		new app.Tree(160, 57);
+		new app.Tree(160, 56);
+		new app.Tree(160, 55);
+		new app.Tree(160, 54);
+		new app.Tree(160, 53);
+		new app.Tree(160, 52);
+		new app.Tree(160, 51);
+		new app.Tree(160, 50);
+
+		new app.Tree(162, 65);
+		new app.Tree(162, 64);
+		new app.Tree(162, 63);
+		new app.Tree(162, 62);
+		new app.Tree(162, 61);
+		new app.Tree(162, 60);
+		new app.Tree(162, 59);
+		new app.Tree(162, 58);
+		new app.Tree(162, 57);
+		new app.Tree(162, 56);
+		new app.Tree(162, 55);
+		new app.Tree(162, 54);
+		new app.Tree(162, 53);
+		new app.Tree(162, 52);
+		new app.Tree(162, 51);
+		new app.Tree(162, 50);
+
+		new app.Tree(164, 65);
+		new app.Tree(164, 64);
+		new app.Tree(164, 63);
+		new app.Tree(164, 62);
+		new app.Tree(164, 61);
+		new app.Tree(164, 60);
+		new app.Tree(164, 59);
+		new app.Tree(164, 58);
+		new app.Tree(164, 57);
+		new app.Tree(164, 56);
+		new app.Tree(164, 55);
+		new app.Tree(164, 54);
+		new app.Tree(164, 53);
+		new app.Tree(164, 52);
+		new app.Tree(164, 51);
+		new app.Tree(164, 50);
+
+		new app.Tree(166, 64);
+		new app.Tree(166, 63);
+		new app.Tree(166, 62);
+		new app.Tree(166, 61);
+		new app.Tree(166, 60);
+		new app.Tree(166, 59);
+		new app.Tree(166, 58);
+
+		new app.Tree(168, 64);
+		new app.Tree(168, 63);
+		new app.Tree(168, 62);
+		new app.Tree(168, 61);
+		new app.Tree(168, 60);
+		new app.Tree(168, 59);
+		new app.Tree(168, 58);
+
+		new app.Stone_1(167, 56);
+		new app.Stone_1(167, 55);
+		new app.Stone_1(167, 54);
+		new app.Stone_1(167, 53);
+		new app.Stone_1(167, 51);
+		new app.Stone_1(167, 50);
+
+		new app.Stone_1(168, 56);
+		new app.Stone_1(168, 55);
+		new app.Stone_1(168, 54);
+		new app.Stone_1(168, 53);
+		new app.Stone_1(168, 51);
+		new app.Stone_1(168, 50);
+
+		new app.Stone_1(169, 56);
+		new app.Stone_1(169, 55);
+		new app.Stone_1(169, 54);
+		new app.Stone_1(169, 53);
+		new app.Stone_1(169, 51);
+		new app.Stone_1(169, 50);
+
+		new app.Stone_1(170, 56);
+		new app.Stone_1(170, 55);
+		new app.Stone_1(170, 54);
+		new app.Stone_1(170, 53);
+		new app.Stone_1(170, 51);
+		new app.Stone_1(170, 50);
+
+		new app.Stone_1(171, 56);
+		new app.Stone_1(171, 55);
+		new app.Stone_1(171, 54);
+		new app.Stone_1(171, 53);
+		new app.Stone_1(171, 51);
+		new app.Stone_1(171, 50);
+
+		new app.Stone_1(172, 56);
+		new app.Stone_1(172, 55);
+		new app.Stone_1(172, 54);
+		new app.Stone_1(172, 53);
+		new app.Stone_1(172, 52);
+		new app.Stone_1(172, 51);
+		new app.Stone_1(172, 50);
+
+		new app.Stone_1(173, 56);
+		new app.Stone_1(173, 55);
+		new app.Stone_1(173, 54);
+		new app.Stone_1(173, 53);
+		new app.Stone_1(173, 52);
+		new app.Stone_1(173, 51);
+		new app.Stone_1(173, 50);
+
+		new app.Stone_1(174, 56);
+		new app.Stone_1(174, 55);
+		new app.Stone_1(174, 54);
+		new app.Stone_1(174, 53);
+		new app.Stone_1(174, 52);
+		new app.Stone_1(174, 51);
+		new app.Stone_1(174, 50);
+
+		new app.Stone_1(175, 56);
+		new app.Stone_1(175, 55);
+		new app.Stone_1(175, 54);
+		new app.Stone_1(175, 53);
+		new app.Stone_1(175, 52);
+		new app.Stone_1(175, 51);
+		new app.Stone_1(175, 50);
+
+		new app.Stone_1(176, 56);
+		new app.Stone_1(176, 55);
+		new app.Stone_1(176, 54);
+		new app.Stone_1(176, 53);
+		new app.Stone_1(176, 52);
+		new app.Stone_1(176, 51);
+		new app.Stone_1(176, 50);
+
+		new app.Stone_1(177, 56);
+		new app.Stone_1(177, 55);
+		new app.Stone_1(177, 54);
+		new app.Stone_1(177, 53);
+		new app.Stone_1(177, 52);
+		new app.Stone_1(177, 51);
+		new app.Stone_1(177, 50);
+
+		new app.Stone_1(178, 57);
+		new app.Stone_1(178, 56);
+		new app.Stone_1(178, 55);
+		new app.Stone_1(178, 54);
+		new app.Stone_1(178, 53);
+		new app.Stone_1(178, 52);
+		new app.Stone_1(178, 51);
+		new app.Stone_1(178, 50);
+
+		new app.Stone_1(179, 57);
+		new app.Stone_1(179, 56);
+		new app.Stone_1(179, 55);
+		new app.Stone_1(179, 54);
+		new app.Stone_1(179, 53);
+		new app.Stone_1(179, 52);
+		new app.Stone_1(179, 51);
+		new app.Stone_1(179, 50);
+
+		new app.Stone_1(180, 57);
+		new app.Stone_1(180, 56);
+		new app.Stone_1(180, 55);
+		new app.Stone_1(180, 54);
+		new app.Stone_1(180, 53);
+		new app.Stone_1(180, 52);
+		new app.Stone_1(180, 51);
+		new app.Stone_1(180, 50);
+
+		new app.Stone_1(181, 57);
+		new app.Stone_1(181, 56);
+		new app.Stone_1(181, 55);
+		new app.Stone_1(181, 54);
+		new app.Stone_1(181, 53);
+		new app.Stone_1(181, 52);
+		new app.Stone_1(181, 51);
+		new app.Stone_1(181, 50);
+
+		new app.Tree(170, 64);
+		new app.Tree(170, 63);
+		new app.Tree(170, 62);
+		new app.Tree(170, 61);
+		new app.Tree(170, 60);
+		new app.Tree(170, 59);
+		new app.Tree(170, 58);
+
+		new app.Tree(172, 64);
+		new app.Tree(172, 63);
+		new app.Tree(172, 62);
+		new app.Tree(172, 61);
+		new app.Tree(172, 60);
+		new app.Tree(172, 59);
+		new app.Tree(172, 58);
+
+		new app.Tree(174, 64);
+		new app.Tree(174, 63);
+		new app.Tree(174, 62);
+		new app.Tree(174, 61);
+		new app.Tree(174, 60);
+		new app.Tree(174, 59);
+		new app.Tree(174, 58);
+
+		new app.Tree(176, 64);
+		new app.Tree(176, 63);
+		new app.Tree(176, 62);
+		new app.Tree(176, 61);
+		new app.Tree(176, 60);
+		new app.Tree(176, 59);
+		new app.Tree(176, 58);
+
+		new app.Tree(178, 64);
+		new app.Tree(178, 63);
+		new app.Tree(178, 62);
+		new app.Tree(178, 61);
+		new app.Tree(178, 60);
+		new app.Tree(178, 59);
+		new app.Tree(178, 58);
+
+		new app.Tree(180, 64);
+		new app.Tree(180, 63);
+		new app.Tree(180, 62);
+		new app.Tree(180, 61);
+		new app.Tree(180, 60);
+		new app.Tree(180, 59);
+		new app.Tree(180, 58);
+
+		new app.Tree(182, 64);
+		new app.Tree(182, 63);
+		new app.Tree(182, 62);
+		new app.Tree(182, 61);
+		new app.Tree(182, 60);
+		new app.Tree(182, 59);
+		new app.Tree(182, 58);
+
+		new app.Tree(184, 64);
+		new app.Tree(184, 63);
+		new app.Tree(184, 62);
+		new app.Tree(184, 61);
+		new app.Tree(184, 60);
+		new app.Tree(184, 59);
+		new app.Tree(184, 58);
+
+		new app.Tree(186, 64);
+		new app.Tree(186, 63);
+		new app.Tree(186, 62);
+		new app.Tree(186, 61);
+		new app.Tree(186, 60);
+		new app.Tree(186, 59);
+		new app.Tree(186, 58);
+
+		new app.Tree(188, 64);
+		new app.Tree(188, 63);
+		new app.Tree(188, 62);
+		new app.Tree(188, 61);
+		new app.Tree(188, 60);
+		new app.Tree(188, 59);
+		new app.Tree(188, 58);
+
+		new app.Tree(190, 64);
+		new app.Tree(190, 63);
+		new app.Tree(190, 62);
+		new app.Tree(190, 61);
+		new app.Tree(190, 60);
+		new app.Tree(190, 59);
+		new app.Tree(190, 58);
+
+		new app.Tree(192, 64);
+		new app.Tree(192, 63);
+		new app.Tree(192, 62);
+		new app.Tree(192, 61);
+		new app.Tree(192, 60);
+		new app.Tree(192, 59);
+		new app.Tree(192, 58);
+
+		new app.Tree(194, 64);
+		new app.Tree(194, 63);
+		new app.Tree(194, 62);
+		new app.Tree(194, 61);
+		new app.Tree(194, 60);
+		new app.Tree(194, 59);
+		new app.Tree(194, 58);
+
+		new app.Tree(196, 64);
+		new app.Tree(196, 63);
+		new app.Tree(196, 62);
+		new app.Tree(196, 61);
+		new app.Tree(196, 60);
+		new app.Tree(196, 59);
+		new app.Tree(196, 58);
+
+		new app.Tree(198, 64);
+		new app.Tree(198, 63);
+		new app.Tree(198, 62);
+		new app.Tree(198, 61);
+		new app.Tree(198, 60);
+		new app.Tree(198, 59);
+		new app.Tree(198, 58);
+
+		new app.Tree(200, 64);
+		new app.Tree(200, 63);
+		new app.Tree(200, 62);
+		new app.Tree(200, 61);
+		new app.Tree(200, 60);
+		new app.Tree(200, 59);
+		new app.Tree(200, 58);
+
+	}
 	// new app.Tree(7, 8, false);
 
 	// new app.Food_1(3, 3);
