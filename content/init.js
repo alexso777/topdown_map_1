@@ -67,628 +67,309 @@ function initObjects(){
 			app.objects[i].push(null);
 		}
 	}
-	
-	new app.Tree(7, 8, false);
-	new app.Tree(7, 8, false);
-	new app.Tree(7, 9, false);
-	new app.Tree(7, 10, false);
-	new app.Tree(7, 11, false);
 
-	new app.Tree(4, 28, false);
-	new app.Tree(4, 24, false);
-	new app.Tree(3, 19, false);
-	new app.Tree(4, 27, false);
-	new app.Tree(6, 28, false);
-	new app.Tree(4, 24, false);
-	new app.Tree(5, 19, false);
-	new app.Tree(7, 27, false);
 
-	new app.Tree(8, 12, false);
-	new app.Tree(10, 12, false);
-	new app.Tree(14, 12, false);
-	new app.Tree(16, 12, false);
-	new app.Tree(18, 12, false);
+	//Area 1
+	{
+		new app.House_4(45, 45, 0, 8);
+		new app.House_1(54, 46, 0, 8);
+		new app.House_2(65, 49, 0, 8);
+		new app.House_3(57, 53, 0, 8);
+		new app.House_4(48, 61, 0, 8);
+		new app.House_1(48, 68, 0, 8);
+		new app.House_2(39, 74, 0, 8);
+	
+		new app.Food_1(47, 56);
+		new app.Food_1(49, 56);
+		new app.Food_1(47, 54);
+		new app.Food_1(49, 54);
+		new app.Food_1(41, 56);
+		new app.Food_1(39, 56);
+		new app.Food_1(41, 54);
+		new app.Food_1(39, 54);
+		new app.Food_1(43, 56);
+		new app.Food_1(43, 54);
+	
+		new app.Food_2(39, 60);
+		new app.Food_2(41, 60);
+		new app.Food_2(43, 60);
+		new app.Food_2(45, 60);
+	
+		new app.Food_1(39, 63);
+		new app.Food_1(41, 63);
+		new app.Food_1(43, 63);
+		new app.Food_1(45, 63);
+	
+		new app.Food_2(39, 65);
+		new app.Food_2(41, 65);
+		new app.Food_2(43, 65);
+		new app.Food_2(45, 65);
+	
+		new app.Food_1(39, 67);
+		new app.Food_1(41, 67);
+		new app.Food_1(43, 67);
+		new app.Food_1(45, 67);
+	
+		new app.Food_1(44, 71);
+		new app.Food_1(46, 71);
+		new app.Food_1(48, 71);
+		new app.Food_1(50, 71);
+	
+		new app.Food_2(44, 73);
+		new app.Food_2(46, 73);
+		new app.Food_2(48, 73);
+		new app.Food_2(50, 73);
+	
+		new app.Tree(50, 76);
+		new app.Tree(50, 77);
+		new app.Tree(50, 78);
+		new app.Tree(50, 79);
+		new app.Tree(50, 80);
+		new app.Tree(50, 81);
+		new app.Tree(50, 82);
+		new app.Tree(50, 83);
+		new app.Tree(50, 84);
+		new app.Tree(50, 85);
+	
+		new app.Tree(47, 76);
+		new app.Tree(47, 77);
+		new app.Tree(47, 78);
+		new app.Tree(47, 79);
+		new app.Tree(47, 80);
+		new app.Tree(47, 81);
+		new app.Tree(47, 82);
+		new app.Tree(47, 83);
+		new app.Tree(47, 84);
+		new app.Tree(47, 85);
+	
+		new app.Tree(44, 76);
+		new app.Tree(44, 77);
+		new app.Tree(44, 78);
+		new app.Tree(44, 79);
+		new app.Tree(44, 80);
+		new app.Tree(44, 81);
+		new app.Tree(44, 82);
+		new app.Tree(44, 83);
+		new app.Tree(44, 84);
+		new app.Tree(44, 85);
+	
+		new app.Tree(32, 75, true);
+		new app.Tree(32, 74, true);
+		new app.Tree(32, 73, true);
+		new app.Tree(32, 72, true);
+		new app.Tree(32, 71, true);
+		new app.Tree(32, 70, true);
+		new app.Tree(32, 69, true);
+		new app.Tree(32, 68, true);
+		new app.Tree(32, 67, true);
+		new app.Tree(32, 66, true);
+		new app.Tree(32, 65, true);
+		new app.Tree(32, 64, true);
+		new app.Tree(32, 63, true);
+		new app.Tree(32, 62, true);
+		new app.Tree(32, 61, true);
+		new app.Tree(32, 60, true);
+		new app.Tree(32, 59, true);
+		new app.Tree(32, 58, true);
+		new app.Tree(32, 57, true);
+		new app.Tree(32, 56, true);
+		new app.Tree(32, 55, true);
+		new app.Tree(32, 54, true);
+		new app.Tree(32, 53, true);
+		new app.Tree(32, 52, true);
+		new app.Tree(32, 51, true);
+		new app.Tree(32, 50, true);
+		new app.Tree(32, 49, true);
+		new app.Tree(32, 48, true);
+		new app.Tree(32, 47, true);
+		new app.Tree(32, 46, true);
+		new app.Tree(32, 45, true);
+		new app.Tree(32, 44, true);
+	
+		new app.Tree(34, 75, true);
+		new app.Tree(34, 74, true);
+		new app.Tree(34, 73, true);
+		new app.Tree(34, 72, true);
+		new app.Tree(34, 71, true);
+		new app.Tree(34, 70, true);
+		new app.Tree(34, 69, true);
+		new app.Tree(34, 68, true);
+		new app.Tree(34, 67, true);
+		new app.Tree(34, 66, true);
+		new app.Tree(34, 65, true);
+		new app.Tree(34, 64, true);
+		new app.Tree(34, 63, true);
+		new app.Tree(34, 62, true);
+		new app.Tree(34, 61, true);
+		new app.Tree(34, 60, true);
+		new app.Tree(34, 59, true);
+		new app.Tree(34, 58, true);
+		new app.Tree(34, 57, true);
+		new app.Tree(34, 56, true);
+		new app.Tree(34, 55, true);
+		new app.Tree(34, 54, true);
+		new app.Tree(34, 53, true);
+		new app.Tree(34, 52, true);
+		new app.Tree(34, 51, true);
+		new app.Tree(34, 50, true);
+		new app.Tree(34, 49, true);
+		new app.Tree(34, 48, true);
+		new app.Tree(34, 47, true);
+		new app.Tree(34, 46, true);
+		new app.Tree(34, 45, true);
+		new app.Tree(34, 44, true);
+	
+		new app.Stone_1(43, 76);
+		new app.Stone_1(42, 76);
+		new app.Stone_1(41, 76);
+		new app.Stone_1(40, 76);
+		new app.Stone_1(39, 76);
+		new app.Stone_1(38, 76);
+		new app.Stone_1(43, 77);
+		new app.Stone_1(42, 77);
+		new app.Stone_1(41, 77);
+		new app.Stone_1(40, 77);
+		new app.Stone_1(39, 77);
+		new app.Stone_1(38, 77);
+		new app.Stone_1(43, 78);
+		new app.Stone_1(42, 78);
+		new app.Stone_1(41, 78);
+		new app.Stone_1(40, 78);
+		new app.Stone_1(39, 78);
+		new app.Stone_1(38, 78);
+	
+		new app.Tree(60, 40);
+		new app.Tree(60, 41);
+		new app.Tree(60, 42);
+		new app.Tree(62, 42);
+		new app.Tree(64, 42);
+		new app.Tree(66, 42);
+		new app.Tree(68, 42);
+		new app.Tree(70, 42);
+		new app.Tree(72, 42);
+		new app.Tree(74, 42);
+		new app.Tree(72, 43);
+		new app.Tree(74, 43);
+		new app.Tree(72, 44);
+		new app.Tree(74, 44);
+		new app.Tree(72, 45);
+		new app.Tree(74, 45);
+		new app.Tree(72, 46);
+		new app.Tree(74, 46);
+		new app.Tree(72, 47);
+		new app.Tree(74, 47);
+		new app.Tree(72, 48);
+		new app.Tree(74, 48);
+		new app.Tree(72, 49);
+		new app.Tree(74, 49);
+		new app.Tree(72, 50);
+		new app.Tree(74, 50);
+		new app.Tree(72, 51);
+		new app.Tree(74, 51);
+		new app.Tree(72, 52);
+		new app.Tree(74, 52);
+		new app.Tree(76, 52);
+		new app.Tree(78, 52);
+		new app.Tree(80, 52);
+		new app.Tree(82, 52);
+		new app.Tree(84, 52);
+		new app.Tree(86, 52);
+		new app.Tree(88, 52);
+		new app.Tree(90, 52);
 
-	new app.Tree(9, 6, false);
-	new app.Tree(11, 6, false);
-	new app.Tree(13, 6, false);
-	new app.Tree(15, 6, false);
+		new app.Tree(54, 73);
+		new app.Tree(54, 71);
+		new app.Tree(54, 69);
+		new app.Tree(54, 67);
+		new app.Tree(54, 65);
+		new app.Tree(54, 63);
 
-	new app.Tree(0, 1, false);
-	new app.Tree(0, 3, false);
-	new app.Tree(0, 5, false);
-	new app.Tree(0, 6, false);
-	new app.Tree(0, 8, false);
-	new app.Tree(0, 23, false);
-	new app.Tree(0, 14, false);
-	new app.Tree(0, 12, false);
-	new app.Tree(0, 16, false);
-	new app.Tree(0, 17, false);
-	new app.Tree(0, 25, false);
+		new app.Tree(67, 73);
+		new app.Tree(67, 71);
+		new app.Tree(67, 69);
+		new app.Tree(67, 67);
+		new app.Tree(67, 65);
+		new app.Tree(67, 63);
 
-	new app.Tree(2, 6, false);
-	new app.Tree(2, 7, false);
-	new app.Tree(2, 13, false);
-	new app.Tree(2, 19, false);
-	new app.Tree(2, 27, false);
-	new app.Tree(2, 14, false);
-	new app.Tree(2, 12, false);
-	new app.Tree(2, 11, false);
-	new app.Tree(2, 25, false);
+		new app.Food_1(56, 73);
+		new app.Food_1(56, 71);
+		new app.Food_1(56, 69);
+		new app.Food_1(56, 67);
+		new app.Food_1(56, 65);
+		new app.Food_1(56, 63);
 
-	new app.Tree(15, 4, false);
+		new app.Food_1(65, 73);
+		new app.Food_1(65, 71);
+		new app.Food_1(65, 69);
+		new app.Food_1(65, 67);
+		new app.Food_1(65, 65);
+		new app.Food_1(65, 63);
 
-	new app.Tree(4, 4, false);
-	new app.Tree(3, 2, false);
-	new app.Tree(6, 5, false);
-	new app.Tree(6, 3, false);
-	new app.Tree(3, 5, false);
+		new app.Food_2(58, 73);
+		new app.Food_2(58, 71);
+		new app.Food_2(58, 69);
+		new app.Food_2(58, 67);
+		new app.Food_2(58, 65);
+		new app.Food_2(58, 63);
 
-	new app.Tree(4, 1, false);
-	new app.Tree(8, 1, false);
-	new app.Tree(12, 1, false);
-	new app.Tree(14, 1, false);
+		new app.Food_2(63, 73);
+		new app.Food_2(63, 71);
+		new app.Food_2(63, 69);
+		new app.Food_2(63, 67);
+		new app.Food_2(63, 65);
+		new app.Food_2(63, 63);
 
-	new app.Tree(58, 28, false);
-	new app.Tree(58, 18, false);
-	new app.Tree(55, 28, false);
-	new app.Tree(52, 19, false);
-	new app.Tree(56, 14, false);
-	new app.Tree(55, 25, false);
-	new app.Tree(52, 15, false);
-	new app.Tree(56, 4, false);
-	new app.Tree(57, 25, false);
-	new app.Tree(56, 26, false);
-	new app.Tree(58, 21, false);
-	new app.Tree(52, 21, false);
-	new app.Tree(51, 13, false);
-	new app.Tree(48, 18, false);
-	new app.Tree(47, 18, false);
+		new app.Tree(72, 73);
+		new app.Tree(72, 71);
+		new app.Tree(72, 69);
+		new app.Tree(72, 67);
+		new app.Tree(72, 65);
+		new app.Tree(72, 63);
+		new app.Tree(72, 61);
+		new app.Tree(72, 59);
 
-	new app.Tree(10, 17, false);
-	new app.Tree(10, 16, false);
-	new app.Tree(10, 15, false);
-	new app.Tree(10, 24, false);
-	new app.Tree(10, 23, false);
+		new app.Tree(75, 73);
+		new app.Tree(75, 71);
+		new app.Tree(75, 69);
+		new app.Tree(75, 67);
+		new app.Tree(75, 65);
+		new app.Tree(75, 63);
+		new app.Tree(75, 61);
+		new app.Tree(75, 59);
 
-	new app.Tree(14, 13, false);
-	new app.Tree(14, 13, false);
-	new app.Tree(15, 13, false);
-	new app.Tree(16, 13, false);
-	new app.Tree(17, 13, false);
-	new app.Tree(18, 13, false);
-	new app.Tree(21, 13, false);
-	new app.Tree(22, 13, false);
-	new app.Tree(23, 13, false);
-	new app.Tree(24, 13, false);
-	new app.Tree(25, 13, false);
-	new app.Tree(26, 13, false);
-	new app.Tree(27, 13, false);
+		new app.Tree(78, 65);
+		new app.Tree(78, 63);
+		new app.Tree(78, 61);
+		new app.Tree(78, 59);
 
-	new app.Tree(14, 15, false);
-	new app.Tree(15, 15, false);
-	new app.Tree(16, 15, false);
-	new app.Tree(17, 15, false);
-	new app.Tree(18, 15, false);
-	new app.Tree(19, 15, false);
-	new app.Tree(20, 15, false);
-	new app.Tree(21, 15, false);
-	new app.Tree(22, 15, false);
-	new app.Tree(25, 15, false);
-	new app.Tree(25, 16, false);
-	new app.Tree(25, 17, false);
-	new app.Tree(25, 18, false);
-	new app.Tree(25, 19, false);
-	new app.Tree(22, 16, false);
-	new app.Tree(22, 17, false);
-	new app.Tree(22, 18, false);
-	new app.Tree(22, 19, false);
+		new app.Tree(81, 65);
+		new app.Tree(81, 63);
+		new app.Tree(81, 61);
+		new app.Tree(81, 59);
 
-	new app.Tree(28, 14, false);
-	new app.Tree(29, 14, false);
-	new app.Tree(30, 14, false);
-	new app.Tree(31, 14, false);
-	new app.Tree(32, 14, false);
+		new app.Tree(84, 65);
+		new app.Tree(84, 63);
+		new app.Tree(84, 61);
+		new app.Tree(84, 59);
 
-	new app.Tree(32, 24, false);
-	new app.Tree(37, 20, false);
-	new app.Tree(41, 16, false);
-	new app.Tree(36, 14, false);
-	new app.Tree(37, 18, false);
-	new app.Tree(34, 24, false);
-	new app.Tree(36, 27, false);
-	new app.Tree(42, 26, false);
-	new app.Tree(33, 24, false);
-	new app.Tree(38, 25, false);
-
-	new app.Tree(4, 8, false);
-	new app.Tree(11, 18, false);
-	new app.Tree(9, 6, false);
-	new app.Tree(14, 16, false);
-
-	new app.Tree(44, 8, false);
-	new app.Tree(41, 18, false);
-	new app.Tree(39, 6, false);
-	new app.Tree(44, 16, false);
-	new app.Tree(43, 6, false);
-	new app.Tree(40, 15, false);
-	new app.Tree(36, 16, false);
-	new app.Tree(44, 13, false);
-
-	new app.Tree(47, 28, false);
-	new app.Tree(46, 26, false);
-	new app.Tree(44, 12, false);
-	new app.Tree(46, 26, false);
-	new app.Tree(49, 23, false);
-
-	new app.Tree(54, 12, false);
-	new app.Tree(56, 6, false);
-	new app.Tree(59, 23, false);
-	new app.Tree(57, 12, false);
-	new app.Tree(54, 6, false);
-	new app.Tree(58, 15, false);
-
-	new app.Food_1(3, 3);
-	new app.Food_1(3, 5);
-	new app.Food_1(4, 4);
-	new app.Food_2(14, 3);
-
-	new app.Food_2(5, 23);
-	new app.Food_1(3, 28);
-	new app.Food_2(8, 24);
-	new app.Food_1(7, 15);
-
-	new app.Food_2(48, 23);
-	new app.Food_1(32, 21);
-	new app.Food_2(50, 4);
-	new app.Food_1(37, 7);
-
-	new app.Food_2(50, 25);
-	new app.Food_1(45, 21);
-
-	new app.Tree(11, 28, false);
-	new app.Tree(9, 16, false);
-	new app.Tree(14, 18, false);
-
-	new app.Stone_1(8, 3);
-	new app.Stone_2(9, 4);
-	new app.Stone_1(5, 16);
-	new app.Stone_2(6, 17);
-	new app.Stone_1(5, 17);
-	new app.Stone_2(8, 19);
-
-	new app.Stone_1(28, 23);
-	new app.Stone_1(29, 24);
-	new app.Stone_1(25, 26);
-	new app.Stone_1(26, 27);
-	new app.Stone_1(25, 27);
-	new app.Stone_1(18, 29);
-
-	new app.Stone_2(38, 23);
-	new app.Stone_2(39, 24);
-	new app.Stone_2(35, 16);
-	new app.Stone_2(36, 27);
-	new app.Stone_2(45, 27);
-	new app.Stone_2(48, 19);
-
-	new app.Tree(33, 26, false);
-	new app.Tree(35, 27, false);
-	new app.Tree(38, 28, false);
-	new app.Tree(34, 29, false);
-	new app.Tree(32, 26, false);
-	new app.Tree(45, 27, false);
-
-	new app.Tree(3, 26, false);
-	new app.Tree(5, 27, false);
-	new app.Tree(8, 28, false);
-	new app.Tree(4, 29, false);
-	new app.Tree(12, 26, false);
-	new app.Tree(15, 27, false);
-	new app.Tree(18, 28, false);
-	new app.Tree(14, 29, false);
-	new app.Tree(22, 29, false);
-	new app.Tree(26, 29, false);
-	new app.Tree(27, 28, false);
-	new app.Tree(21, 26, false);
-	new app.Stone_1(11, 23);
-	new app.Stone_1(9, 24);
-	new app.Stone_1(15, 26);
-	new app.Tree(8, 23, false);
-
-	new app.Person_1(1, 29);
-	new app.Tree(3, 3, false);
-	new app.Food_1(3, 7);
-	new app.Tree(6, 8, false);
-	new app.Tree(10, 25, false);
-	new app.House_1(12, 10, 0, 8);
-	new app.Person_2(13, 14);
-	new app.Tree(13, 23, false);
-	new app.Stone_1(13, 5);
-	new app.Food_2(16, 15);
-	new app.Person_1(21, 10);
-	new app.Stone_2(23, 23);
-	new app.Food_1(23, 5);
-	new app.Food_2(23, 20);
-	new app.Person_2(33, 8);
-	new app.Food_2(33, 7);
-	new app.Tree(33, 29, 0, false);
-	new app.House_3(33, 14, 1, 8);
-	new app.Stone_2(43, 7);
-	new app.Tree(43, 16, false);
-	new app.Tree(43, 20, false);
-	new app.Food_1(49, 6);
-	new app.Tree(51, 12, false);
-	new app.Stone_2(55, 15);
-	new app.Food_2(53, 14);
-	new app.Tree(57, 21, false);
-	new app.Tree(55, 13, false);
-
-	new app.Stone_1(36, 8);
-	new app.Stone_1(34, 9);
-	new app.Stone_2(37, 11);
-
-	new app.Tree(15, 26, false);
-	new app.Tree(16, 29, false);
-	new app.Tree(18, 24, false);
-	new app.Tree(15, 25, false);
-	new app.Tree(19, 26, false);
-	new app.Tree(15, 23, false);
-	new app.Tree(17, 25, false);
-
-	new app.Tree(18, 26, false);
-	new app.Tree(19, 29, false);
-	new app.Tree(21, 24, false);
-	new app.Tree(24, 25, false);
-	new app.Tree(26, 26, false);
-	new app.Tree(25, 23, false);
-	new app.Tree(27, 25, false);
-
-	new app.Tree(41, 29, false);
-	new app.Tree(34, 27, false);
-	new app.Tree(36, 28, false);
-	new app.Tree(37, 15, false);
-	new app.Tree(48, 17, false);
-	new app.Tree(39, 14, false);
-	new app.Tree(30, 12, false);
-	new app.Tree(32, 27, false);
-	new app.Tree(35, 21, false);
-	new app.Tree(37, 28, false);
-	new app.Tree(34, 28, false);
-	new app.Tree(37, 14, false);
-	new app.Tree(34, 17, false);
-	new app.Tree(36, 9, false);
-	new app.Tree(47, 28, false);
-
-	new app.Food_1(58, 3);
-	new app.Tree(51, 2, false);
-	new app.Tree(56, 11, false);
-
-	new app.Stone_1(57, 4);
-	new app.Stone_1(55, 3);
-	new app.Stone_1(55, 4);
-
-	new app.Stone_2(33, 18);
-	new app.Stone_2(35, 18);
-	new app.Stone_2(31, 19);
-
-	new app.Stone_1(38, 28);
-
-	new app.Stone_1(58, 28);
-	new app.Stone_1(58, 26);
-	new app.Stone_1(56, 24);
-	new app.Stone_1(52, 26);
-
-	for(let i=1; i<=2; i++){
-		new app.Tree(60*i+7, 8, false);
-		new app.Tree(60*i+7, 8, false);
-		new app.Tree(60*i+7, 9, false);
-		new app.Tree(60*i+7, 10, false);
-		new app.Tree(60*i+7, 11, false);
-	
-		new app.Tree(60*i+4, 28, false);
-		new app.Tree(60*i+4, 24, false);
-		new app.Tree(60*i+3, 19, false);
-		new app.Tree(60*i+4, 27, false);
-		new app.Tree(60*i+6, 28, false);
-		new app.Tree(60*i+4, 24, false);
-		new app.Tree(60*i+5, 19, false);
-		new app.Tree(60*i+7, 27, false);
-	
-		new app.Tree(60*i+8, 12, false);
-		new app.Tree(60*i+10, 12, false);
-		new app.Tree(60*i+14, 12, false);
-		new app.Tree(60*i+16, 12, false);
-		new app.Tree(60*i+18, 12, false);
-	
-		new app.Tree(60*i+9, 6, false);
-		new app.Tree(60*i+11, 6, false);
-		new app.Tree(60*i+13, 6, false);
-		new app.Tree(60*i+15, 6, false);
-	
-		new app.Tree(60*i+0, 1, false);
-		new app.Tree(60*i+0, 3, false);
-		new app.Tree(60*i+0, 5, false);
-		new app.Tree(60*i+0, 6, false);
-		new app.Tree(60*i+0, 8, false);
-		new app.Tree(60*i+0, 23, false);
-		new app.Tree(60*i+0, 14, false);
-		new app.Tree(60*i+0, 12, false);
-		new app.Tree(60*i+0, 16, false);
-		new app.Tree(60*i+0, 17, false);
-		new app.Tree(60*i+0, 25, false);
-	
-		new app.Tree(60*i+2, 6, false);
-		new app.Tree(60*i+2, 7, false);
-		new app.Tree(60*i+2, 13, false);
-		new app.Tree(60*i+2, 19, false);
-		new app.Tree(60*i+2, 27, false);
-		new app.Tree(60*i+2, 14, false);
-		new app.Tree(60*i+2, 12, false);
-		new app.Tree(60*i+2, 11, false);
-		new app.Tree(60*i+2, 25, false);
-	
-		new app.Tree(60*i+15, 4, false);
-	
-		new app.Tree(60*i+4, 4, false);
-		new app.Tree(60*i+3, 2, false);
-		new app.Tree(60*i+6, 5, false);
-		new app.Tree(60*i+6, 3, false);
-		new app.Tree(60*i+3, 5, false);
-	
-		new app.Tree(60*i+4, 1, false);
-		new app.Tree(60*i+8, 1, false);
-		new app.Tree(60*i+12, 1, false);
-		new app.Tree(60*i+14, 1, false);
-	
-		new app.Tree(60*i+58, 28, false);
-		new app.Tree(60*i+58, 18, false);
-		new app.Tree(60*i+55, 28, false);
-		new app.Tree(60*i+52, 19, false);
-		new app.Tree(60*i+56, 14, false);
-		new app.Tree(60*i+55, 25, false);
-		new app.Tree(60*i+52, 15, false);
-		new app.Tree(60*i+56, 4, false);
-		new app.Tree(60*i+57, 25, false);
-		new app.Tree(60*i+56, 26, false);
-		new app.Tree(60*i+58, 21, false);
-		new app.Tree(60*i+52, 21, false);
-		new app.Tree(60*i+51, 13, false);
-		new app.Tree(60*i+48, 18, false);
-		new app.Tree(60*i+47, 18, false);
-	
-		new app.Tree(60*i+10, 17, false);
-		new app.Tree(60*i+10, 16, false);
-		new app.Tree(60*i+10, 15, false);
-		new app.Tree(60*i+10, 24, false);
-		new app.Tree(60*i+10, 23, false);
-	
-		new app.Tree(60*i+14, 13, false);
-		new app.Tree(60*i+14, 13, false);
-		new app.Tree(60*i+15, 13, false);
-		new app.Tree(60*i+16, 13, false);
-		new app.Tree(60*i+17, 13, false);
-		new app.Tree(60*i+18, 13, false);
-		new app.Tree(60*i+21, 13, false);
-		new app.Tree(60*i+22, 13, false);
-		new app.Tree(60*i+23, 13, false);
-		new app.Tree(60*i+24, 13, false);
-		new app.Tree(60*i+25, 13, false);
-		new app.Tree(60*i+26, 13, false);
-		new app.Tree(60*i+27, 13, false);
-	
-		new app.Tree(60*i+14, 15, false);
-		new app.Tree(60*i+15, 15, false);
-		new app.Tree(60*i+16, 15, false);
-		new app.Tree(60*i+17, 15, false);
-		new app.Tree(60*i+18, 15, false);
-		new app.Tree(60*i+19, 15, false);
-		new app.Tree(60*i+20, 15, false);
-		new app.Tree(60*i+21, 15, false);
-		new app.Tree(60*i+22, 15, false);
-		new app.Tree(60*i+25, 15, false);
-		new app.Tree(60*i+25, 16, false);
-		new app.Tree(60*i+25, 17, false);
-		new app.Tree(60*i+25, 18, false);
-		new app.Tree(60*i+25, 19, false);
-		new app.Tree(60*i+22, 16, false);
-		new app.Tree(60*i+22, 17, false);
-		new app.Tree(60*i+22, 18, false);
-		new app.Tree(60*i+22, 19, false);
-	
-		new app.Tree(60*i+28, 14, false);
-		new app.Tree(60*i+29, 14, false);
-		new app.Tree(60*i+30, 14, false);
-		new app.Tree(60*i+31, 14, false);
-		new app.Tree(60*i+32, 14, false);
-	
-		new app.Tree(60*i+32, 24, false);
-		new app.Tree(60*i+37, 20, false);
-		new app.Tree(60*i+41, 16, false);
-		new app.Tree(60*i+36, 14, false);
-		new app.Tree(60*i+37, 18, false);
-		new app.Tree(60*i+34, 24, false);
-		new app.Tree(60*i+36, 27, false);
-		new app.Tree(60*i+42, 26, false);
-		new app.Tree(60*i+33, 24, false);
-		new app.Tree(60*i+38, 25, false);
-	
-		new app.Tree(60*i+4, 8, false);
-		new app.Tree(60*i+11, 18, false);
-		new app.Tree(60*i+9, 6, false);
-		new app.Tree(60*i+14, 16, false);
-	
-		new app.Tree(60*i+44, 8, false);
-		new app.Tree(60*i+41, 18, false);
-		new app.Tree(60*i+39, 6, false);
-		new app.Tree(60*i+44, 16, false);
-		new app.Tree(60*i+43, 6, false);
-		new app.Tree(60*i+40, 15, false);
-		new app.Tree(60*i+36, 16, false);
-		new app.Tree(60*i+44, 13, false);
-	
-		new app.Tree(60*i+47, 28, false);
-		new app.Tree(60*i+46, 26, false);
-		new app.Tree(60*i+44, 12, false);
-		new app.Tree(60*i+46, 26, false);
-		new app.Tree(60*i+49, 23, false);
-	
-		new app.Tree(60*i+54, 12, false);
-		new app.Tree(60*i+56, 6, false);
-		new app.Tree(60*i+59, 23, false);
-		new app.Tree(60*i+57, 12, false);
-		new app.Tree(60*i+54, 6, false);
-		new app.Tree(60*i+58, 15, false);
-	
-		new app.Food_1(60*i+3, 3);
-		new app.Food_1(60*i+3, 5);
-		new app.Food_1(60*i+4, 4);
-		new app.Food_2(60*i+14, 3);
-	
-		new app.Food_2(60*i+5, 23);
-		new app.Food_1(60*i+3, 28);
-		new app.Food_2(60*i+8, 24);
-		new app.Food_1(60*i+7, 15);
-	
-		new app.Food_2(60*i+48, 23);
-		new app.Food_1(60*i+32, 21);
-		new app.Food_2(60*i+50, 4);
-		new app.Food_1(60*i+37, 7);
-	
-		new app.Food_2(60*i+50, 25);
-		new app.Food_1(60*i+45, 21);
-	
-		new app.Tree(60*i+11, 28, false);
-		new app.Tree(60*i+9, 16, false);
-		new app.Tree(60*i+14, 18, false);
-	
-		new app.Stone_1(60*i+8, 3);
-		new app.Stone_2(60*i+9, 4);
-		new app.Stone_1(60*i+5, 16);
-		new app.Stone_2(60*i+6, 17);
-		new app.Stone_1(60*i+5, 17);
-		new app.Stone_2(60*i+8, 19);
-	
-		new app.Stone_1(60*i+28, 23);
-		new app.Stone_1(60*i+29, 24);
-		new app.Stone_1(60*i+25, 26);
-		new app.Stone_1(60*i+26, 27);
-		new app.Stone_1(60*i+25, 27);
-		new app.Stone_1(60*i+18, 29);
-	
-		new app.Stone_2(60*i+38, 23);
-		new app.Stone_2(60*i+39, 24);
-		new app.Stone_2(60*i+35, 16);
-		new app.Stone_2(60*i+36, 27);
-		new app.Stone_2(60*i+45, 27);
-		new app.Stone_2(60*i+48, 19);
-	
-		new app.Tree(60*i+33, 26, false);
-		new app.Tree(60*i+35, 27, false);
-		new app.Tree(60*i+38, 28, false);
-		new app.Tree(60*i+34, 29, false);
-		new app.Tree(60*i+32, 26, false);
-		new app.Tree(60*i+45, 27, false);
-	
-		new app.Tree(60*i+3, 26, false);
-		new app.Tree(60*i+5, 27, false);
-		new app.Tree(60*i+8, 28, false);
-		new app.Tree(60*i+4, 29, false);
-		new app.Tree(60*i+12, 26, false);
-		new app.Tree(60*i+15, 27, false);
-		new app.Tree(60*i+18, 28, false);
-		new app.Tree(60*i+14, 29, false);
-		new app.Tree(60*i+22, 29, false);
-		new app.Tree(60*i+26, 29, false);
-		new app.Tree(60*i+27, 28, false);
-		new app.Tree(60*i+21, 26, false);
-		new app.Stone_1(60*i+11, 23);
-		new app.Stone_1(60*i+9, 24);
-		new app.Stone_1(60*i+15, 26);
-		new app.Tree(60*i+8, 23, false);
-	
-		new app.Person_1(60*i+1, 29);
-		new app.Tree(60*i+3, 3, false);
-		new app.Food_1(60*i+3, 7);
-		new app.Tree(60*i+6, 8, false);
-		new app.Tree(60*i+10, 25, false);
-		new app.House_1(60*i+12, 10, 0, 8);
-		new app.Person_2(60*i+13, 14);
-		new app.Tree(60*i+13, 23, false);
-		new app.Stone_1(60*i+13, 5);
-		new app.Food_2(60*i+16, 15);
-		new app.Person_1(60*i+21, 10);
-		new app.Stone_2(60*i+23, 23);
-		new app.Food_1(60*i+23, 5);
-		new app.Food_2(60*i+23, 20);
-		new app.Person_2(60*i+33, 8);
-		new app.Food_2(60*i+33, 7);
-		new app.Tree(60*i+33, 29, 0, false);
-		new app.House_3(60*i+33, 14, 1, 8);
-		new app.Stone_2(60*i+43, 7);
-		new app.Tree(60*i+43, 16, false);
-		new app.Tree(60*i+43, 20, false);
-		new app.Food_1(60*i+49, 6);
-		new app.Tree(60*i+51, 12, false);
-		new app.Stone_2(60*i+55, 15);
-		new app.Food_2(60*i+53, 14);
-		new app.Tree(60*i+57, 21, false);
-		new app.Tree(60*i+55, 13, false);
-	
-		new app.Stone_1(60*i+36, 8);
-		new app.Stone_1(60*i+34, 9);
-		new app.Stone_2(60*i+37, 11);
-	
-		new app.Tree(60*i+15, 26, false);
-		new app.Tree(60*i+16, 29, false);
-		new app.Tree(60*i+18, 24, false);
-		new app.Tree(60*i+15, 25, false);
-		new app.Tree(60*i+19, 26, false);
-		new app.Tree(60*i+15, 23, false);
-		new app.Tree(60*i+17, 25, false);
-	
-		new app.Tree(60*i+18, 26, false);
-		new app.Tree(60*i+19, 29, false);
-		new app.Tree(60*i+21, 24, false);
-		new app.Tree(60*i+24, 25, false);
-		new app.Tree(60*i+26, 26, false);
-		new app.Tree(60*i+25, 23, false);
-		new app.Tree(60*i+27, 25, false);
-	
-		new app.Tree(60*i+41, 29, false);
-		new app.Tree(60*i+34, 27, false);
-		new app.Tree(60*i+36, 28, false);
-		new app.Tree(60*i+37, 15, false);
-		new app.Tree(60*i+48, 17, false);
-		new app.Tree(60*i+39, 14, false);
-		new app.Tree(60*i+30, 12, false);
-		new app.Tree(60*i+32, 27, false);
-		new app.Tree(60*i+35, 21, false);
-		new app.Tree(60*i+37, 28, false);
-		new app.Tree(60*i+34, 28, false);
-		new app.Tree(60*i+37, 14, false);
-		new app.Tree(60*i+34, 17, false);
-		new app.Tree(60*i+36, 9, false);
-		new app.Tree(60*i+47, 28, false);
-	
-		new app.Food_1(60*i+58, 3);
-		new app.Tree(60*i+51, 2, false);
-		new app.Tree(60*i+56, 11, false);
-	
-		new app.Stone_1(60*i+57, 4);
-		new app.Stone_1(60*i+55, 3);
-		new app.Stone_1(60*i+55, 4);
-	
-		new app.Stone_2(60*i+33, 18);
-		new app.Stone_2(60*i+35, 18);
-		new app.Stone_2(60*i+31, 19);
-	
-		new app.Stone_1(60*i+38, 28);
-	
-		new app.Stone_1(60*i+58, 28);
-		new app.Stone_1(60*i+58, 26);
-		new app.Stone_1(60*i+56, 24);
-		new app.Stone_1(60*i+52, 26);
+		new app.Tree(87, 65);
+		new app.Tree(87, 63);
+		new app.Tree(87, 61);
+		new app.Tree(87, 59);
 	}
+
+	// new app.Tree(7, 8, false);
+
+	// new app.Food_1(3, 3);
+	// new app.Food_2(14, 3);
+
+	// new app.Stone_1(8, 3);
+	// new app.Stone_2(9, 4);
+
+	// new app.Person_1(1, 29);
+	// new app.Person_2(13, 14);
+
+	// new app.House_1(12, 10, 0, 8);
 }
 
 initObjects();
